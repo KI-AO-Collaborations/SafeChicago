@@ -1,7 +1,7 @@
 README
 =========================== 
 
-## IMPORTANT NOTE:
+## Important Note:
 - In order to save this in Github, some files were compressed into .zip format. Uncompress the following files before running in order to ensure the software runs properly:
 -data/crime_data_2017.csv
 -safechicago/pickle_files/adjusted_street_com.p
