@@ -1,6 +1,12 @@
 README
 =========================== 
 
+## IMPORTANT NOTE:
+- In order to save this in Github, some files were compressed into .zip format. Uncompress the following files before running in order to ensure the software runs properly:
+-data/crime_data_2017.csv
+-safechicago/pickle_files/adjusted_street_com.p
+-safechicago/pickle_files/street_com.p
+
 ## Instructions to Open Website
 - Navigate to `./safechicago`
 - Open the website by typing `python3 manage.py runserver` in terminal
