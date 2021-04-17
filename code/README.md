@@ -1,6 +1,3 @@
-README
-=========================== 
-
 ## Libraries Used
 - OSMNX
 - NetworkX
