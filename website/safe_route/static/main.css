@@ -1,0 +1,147 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Times New Roman;
+}
+
+div#header {
+    background: rgb(135, 206, 250);
+    margin: 0;
+    padding: 0;
+}
+
+div#header h1 {
+    font-size: 18px;
+    color: #ff0000;
+    margin: 0;
+    padding: 7px;
+}
+
+div.frame {
+    margin: 15px;
+}
+
+div.error {
+    padding: 15px;
+    background: #eee;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    color: red;
+}
+
+fieldset {
+    padding: 3px;
+    margin: 1px;
+    border: 1px solid #ddd;
+}
+
+fieldset legend {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+input.query {
+    font-size: 15px;
+}
+
+label {
+    font-size: 16px;
+}
+
+table.form {
+    text-align: left;
+}
+
+table.form tr td,
+table.form tr th {
+    vertical-align: top;
+}
+
+table.form input {
+    margin-right: 5px;
+}
+
+ul.errorlist {
+    margin: 5px;
+    padding: 0px;
+    padding-top: 5px;
+}
+
+ul.errorlist li {
+    font-size: 12px;
+    color: red;
+    margin: 2px;
+    padding: 0px;
+}
+
+span.helptext {
+    font-size: 11px;
+    color: gray;
+}
+
+table.directions{
+    border: 1px solid black;
+    margin-right: 50px;
+}
+
+#crime_link {
+    position: absolute;
+    top: 100px;
+    right: 100px;
+}
+
+input[value="View Heat Map"] {
+    width: 200px;
+    height: 50px;
+    font-size: 16px;
+}
+
+input[value="View Documentation"] {
+    width: 200px;
+    height: 50px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+#short_path_map {
+    border: 1px solid black;
+    position: absolute;
+    width: 50%;
+    height: 50%;
+}
+
+#direction {
+    display: inline-block;
+}
+
+input[type='text'], select {
+    width: 300px;
+    height: 25px;
+}
+
+input[value="Submit"] {
+    width:100px;
+    height: 35px;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+#direction_tbl, #header_row > th, #direction_row > td   {
+    border: 1px solid black
+
+} 
+
+#direction_tbl {
+    border-collapse: collapse
+}
+
+#header_row > th {
+    padding: 5px;
+}
+#direction_row:nth-child(even) {
+    background-color: #87cefa
+}
+
+#id_comm_area {
+    margin-top: 30px;
+}
